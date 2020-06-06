@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+<!-- === Services Page === -->
+<template name="mobility page" id="mobility">
+        <xpath expr="link[last()]" position="after">
+
+    <!-- === Snippets' area === -->
+    <div class="oe_structure">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <link rel="pingback" href="xmlrpc.html" />
+
+  <script type="text/javascript">
+      document.documentElement.className = 'js';
+  </script>
+
+  <script>
+  	/* <![CDATA[ */ 
+      var et_site_url = 'index.html';
+      var et_post_id = '131';
+
+      function et_core_page_resource_fallback(a, b) {
+          "undefined" === typeof b && (b = a.sheet.cssRules && 0 === a.sheet.cssRules.length);
+          b && (a.onerror = null, a.onload = null, a.href ? a.href = et_site_url + "/?et_core_page_resource=" + a.id + et_post_id : a.src && (a.src = et_site_url + "/?et_core_page_resource=" + a.id + et_post_id))
+      }
+    /* ]]> */
+  </script>
+  <title>Mobile Solutions | Ontash. A software company for Mobile IT, Government, Healthcare and Business Software</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>
+  <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+  <link rel='dns-prefetch' href='http://s.w.org/' />
+  <link rel="alternate" type="application/rss+xml" title="Ontash. A software company for Mobile IT, Government, Healthcare and Business Software &#187; Feed" href="/ontashweb/static/feed/index.html" />
+  <link rel="alternate" type="application/rss+xml" title="Ontash. A software company for Mobile IT, Government, Healthcare and Business Software &#187; Comments Feed" href="comments/feed/index.html" />
+  <!-- This site uses the Google Analytics by MonsterInsights plugin v7.4.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+  <script type="text/javascript" data-cfasync="false">
+  	/* <![CDATA[ */
+      var mi_version = '7.4.1';
+      var mi_track_user = true;
+      var mi_no_track_reason = '';
+
+      var disableStr = 'ga-disable-UA-114158204-1';
+
+      /* Function to detect opted out users */
+      function __gaTrackerIsOptedOut() {
+          return document.cookie.indexOf(disableStr + '=true') > -1;
+      }
+
+      /* Disable tracking if the opt-out cookie exists. */
+      if (__gaTrackerIsOptedOut()) {
+          window[disableStr] = true;
+      }
+
+      /* Opt-out function */
+      function __gaTrackerOptout() {
+          document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+          window[disableStr] = true;
+      }
+
+      if (mi_track_user) {
+          (function(i, s, o, g, r, a, m) {
+              i['GoogleAnalyticsObject'] = r;
+              i[r] = i[r] || function() {
+                  (i[r].q = i[r].q || []).push(arguments)
+              }, i[r].l = 1 * new Date();
+              a = s.createElement(o),
+                  m = s.getElementsByTagName(o)[0];
+              a.async = 1;
+              a.src = g;
+              m.parentNode.insertBefore(a, m)
+          })(window, document, 'script', 'www.google-analytics.com/analytics.js', '__gaTracker');
+
+          __gaTracker('create', 'UA-114158204-1', 'auto');
+          __gaTracker('set', 'forceSSL', true);
+          __gaTracker('require', 'displayfeatures');
+          __gaTracker('require', 'linkid', 'linkid.html');
+          __gaTracker('send', 'pageview');
+      } else {
+          console.log("");
+          (function() {
+              /* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+              var noopfn = function() {
+                  return null;
+              };
+              var noopnullfn = function() {
+                  return null;
+              };
+              var Tracker = function() {
+                  return null;
+              };
+              var p = Tracker.prototype;
+              p.get = noopfn;
+              p.set = noopfn;
+              p.send = noopfn;
+              var __gaTracker = function() {
+                  var len = arguments.length;
+                  if (len === 0) {
+                      return;
+                  }
+                  var f = arguments[len - 1];
+                  if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+                      console.log('Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason);
+                      return;
+                  }
+                  try {
+                      f.hitCallback();
+                  } catch (ex) {
+
+                  }
+              };
+              __gaTracker.create = function() {
+                  return new Tracker();
+              };
+              __gaTracker.getByName = noopnullfn;
+              __gaTracker.getAll = function() {
+                  return [];
+              };
+              __gaTracker.remove = noopfn;
+              window['__gaTracker'] = __gaTracker;
+          })();
+      }
+     /* ]]> */
+  </script>
+  <!-- / Google Analytics by MonsterInsights -->
+  <script type="text/javascript">
+  	/* <![CDATA[ */
+      window._wpemojiSettings = {
+          "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/",
+          "ext": ".png",
+          "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/",
+          "svgExt": ".svg",
+          "source": {
+              "concatemoji": "https:\/\/ontash.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.4"
+          }
+      };
+      ! function(a, b, c) {
+          function d(a, b) {
+              var c = String.fromCharCode;
+              l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0);
+              var d = k.toDataURL();
+              l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0);
+              var e = k.toDataURL();
+              return d === e
+          }
+
+          function e(a) {
+              var b;
+              if (!l || !l.fillText) return !1;
+              switch (l.textBaseline = "top", l.font = "600 32px Arial", a) {
+                  case "flag":
+                      return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b);
+                  case "emoji":
+                      return b = d([55358, 56760, 9792, 65039], [55358, 56760, 8203, 9792, 65039]), !b
+              }
+              return !1
+          }
+
+          function f(a) {
+              var c = b.createElement("script");
+              c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+          }
+          var g, h, i, j, k = b.createElement("canvas"),
+              l = k.getContext && k.getContext("2d");
+          for (j = Array("flag", "emoji"), c.supports = {
+                  everything: !0,
+                  everythingExceptFlag: !0
+              }, i = 0; i < j.length; i++) c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]);
+          c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function() {
+              c.DOMReady = !0
+          }, c.supports.everything || (h = function() {
+              c.readyCallback()
+          }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function() {
+              "complete" === b.readyState && c.readyCallback()
+          })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji)))
+      }(window, document, window._wpemojiSettings);
+     /* ]]> */
+  </script>
+  <meta content="Divi v.3.19.9" name="generator" />
+  <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+          display: inline !important;
+          border: none !important;
+          box-shadow: none !important;
+          height: 1em !important;
+          width: 1em !important;
+          margin: 0 .07em !important;
+          vertical-align: -0.1em !important;
+          background: none !important;
+          padding: 0 !important;
+      }
+  </style>
+  <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min5560.css?ver=5.0.4' type='text/css' media='all' />
+  <link rel='stylesheet' id='filterMediank-css' href='/ontashweb/static/wp-content/plugins/responsive-filterable-portfolio/css/filterMediank5560.css?ver=5.0.4' type='text/css' media='all' />
+  <link rel='stylesheet' id='filterMediank-lbox-css' href='/ontashweb/static/wp-content/plugins/responsive-filterable-portfolio/css/filterMediank-lbox5560.css?ver=5.0.4' type='text/css' media='all' />
+  <link rel='stylesheet' id='divi-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,latin-ext' type='text/css' media='all' />
+  <link rel='stylesheet' id='divi-style-css' href='/ontashweb/static/wp-content/themes/Divi/style67e3.css?ver=3.19.9' type='text/css' media='all' />
+  <link rel='stylesheet' id='dashicons-css' href='/ontashweb/static/wp-includes/css/dashicons.min5560.css?ver=5.0.4' type='text/css' media='all' />
+  <script type='text/javascript'>
+      /* <![CDATA[ */
+      var monsterinsights_frontend = {
+          "js_events_tracking": "true",
+          "download_extensions": "doc,exe,js,pdf,ppt,tgz,zip,xls",
+          "inbound_paths": "[]",
+          "home_url": "https:\/\/ontash.net",
+          "hash_tracking": "false"
+      };
+      /* ]]> */
+  </script>
+  <script type='text/javascript' src='/ontashweb/static/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend9c05.js?ver=7.4.1'></script>
+  <script type='text/javascript' src='/ontashweb/static/wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+  <script type='text/javascript' src='/ontashweb/static/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+  <script type='text/javascript' src='/ontashweb/static/wp-content/plugins/responsive-filterable-portfolio/js/filterMediank5560.js?ver=5.0.4'></script>
+  <script type='text/javascript' src='/ontashweb/static/wp-content/plugins/responsive-filterable-portfolio/js/filterMediank-lbox-js5560.js?ver=5.0.4'></script>
+  <link rel='https://api.w.org/' href='/ontashweb/static/wp-json/index.html' />
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd" />
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/ontashweb/static/wp-includes/wlwmanifest.xml" />
+  <meta name="generator" content="WordPress 5.0.4" />
+  <link rel="canonical" href="index.html" />
+  <link rel='shortlink' href='indexd52d.html?p=131' />
+  <link rel="alternate" type="application/json+oembed" href="/ontashweb/static/wp-json/oembed/1.0/embed1781.json?url=https%3A%2F%2Fontash.net%2Findex.php%2Fmobility-solutions%2F" />
+  <link rel="alternate" type="text/xml+oembed" href="/ontashweb/static/wp-json/oembed/1.0/embed32af?url=https%3A%2F%2Fontash.net%2Findex.php%2Fmobility-solutions%2F&amp;format=xml" />
+  <script type="text/javascript">
+  	/* <![CDATA[ */
+      (function(url) {
+          if (/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)) {
+              return;
+          }
+          var addEvent = function(evt, handler) {
+              if (window.addEventListener) {
+                  document.addEventListener(evt, handler, false);
+              } else if (window.attachEvent) {
+                  document.attachEvent('on' + evt, handler);
+              }
+          };
+          var removeEvent = function(evt, handler) {
+              if (window.removeEventListener) {
+                  document.removeEventListener(evt, handler, false);
+              } else if (window.detachEvent) {
+                  document.detachEvent('on' + evt, handler);
+              }
+          };
+          var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+          var logHuman = function() {
+              if (window.wfLogHumanRan) {
+                  return;
+              }
+              window.wfLogHumanRan = true;
+              var wfscr = document.createElement('script');
+              wfscr.type = 'text/javascript';
+              wfscr.async = true;
+              wfscr.src = url + '&r=' + Math.random();
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(wfscr);
+              for (var i = 0; i < evts.length; i++) {
+                  removeEvent(evts[i], logHuman);
+              }
+          };
+          for (var i = 0; i < evts.length; i++) {
+              addEvent(evts[i], logHuman);
+          }
+      })('index0cd7.html?wordfence_lh=1&amp;hid=7DE665502B55C6BC0D1821C7B76750EC');
+     /* ]]> */
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="icon" href="/ontashweb/static/wp-content/uploads/2016/03/cropped-O-32x32.png" sizes="32x32" />
+  <link rel="icon" href="/ontashweb/static/wp-content/uploads/2016/03/cropped-O-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon-precomposed" href="/ontashweb/static/wp-content/uploads/2016/03/cropped-O-180x180.png" />
+  <meta name="msapplication-TileImage" content="https://ontash.net/wp-content/uploads/2016/03/cropped-O-270x270.png" />
+  <link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="/ontashweb/static/wp-content/cache/et/global/et-divi-customizer-global-15518846255928.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)" />   
+</head>     
+
+<body class="page-template-default page page-id-116 et_divi_builder et_pb_button_helper_class et_fixed_nav et_show_nav et_cover_background et_pb_gutter windows et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_left et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et-db et_minified_js et_minified_css">
+    <div id="page-container">
+
+        <header id="main-header" data-height-onload="66">
+            <div class="container clearfix et_menu_container">
+                <div class="logo_container">
+                    <span class="logo_helper"></span>
+                    <a href="/home">
+                        <img src="/ontashweb/static/wp-content/uploads/2016/04/logo_60.png" alt="Ontash. A software company for Mobile IT, Government, Healthcare and Business Software" id="logo" data-height-percentage="54" />
+                    </a>
+                </div>
+                <div id="et-top-navigation" data-height="66" data-fixed-height="40">
+                    <nav id="top-menu-nav">
+                        <ul id="top-menu" class="nav">
+                            <li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="/about">About</a></li>
+                            <li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="/healthcare">Healthcare Data Analytics</a></li>
+                            <li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="/government">Government</a></li>
+                            <li id="menu-item-587" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-587"><a>Services</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="/enterprise">Enterprise Software</a></li>
+                                    <li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a href="/mobility">Mobile Solutions</a></li>
+                                    <li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="/cloud">Cloud Services</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="/products">Products</a></li>
+                            <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a href="/contact">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="et_mobile_nav_menu">
+                        <div class="mobile_nav closed">
+                            <span class="select_page">Select Page</span>
+                            <span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- #et-top-navigation -->
+            </div>
+            <!-- .container -->
+            <div class="et_search_outer">
+                <div class="container et_search_form_container">
+                    <form role="search" method="get" class="et-search-form" action="https://ontash.net/">
+                        <input type="search" class="et-search-field" placeholder="Search &#x2026;" value="" name="s" title="Search for:" /> </form>
+                    <span class="et_close_search_field"></span>
+                </div>
+            </div>
+        </header>
+        <!-- #main-header -->
+        <div id="et-main-area">
+
+            <div id="main-content">
+
+                <article id="post-131" class="post-131 page type-page status-publish hentry">
+
+                    <div class="entry-content">
+                        <div id="et-boc" class="et-boc">
+
+                            <div class="et_builder_inner_content et_pb_gutters3">
+                                <div class="et_pb_section et_pb_section_0 et_pb_fullwidth_section et_section_regular">
+
+                                    <div class="et_pb_module et_pb_fullwidth_slider_0 et_hover_enabled et_pb_slider et_pb_slider_parallax">
+                                        <div class="et_pb_slides">
+                                            <div class="et_pb_slide et_pb_slide_0 et_pb_section_parallax et_pb_bg_layout_dark et_pb_media_alignment_center et_pb_slider_with_text_overlay et-pb-active-slide">
+                                                <span class="et_parallax_bg et_pb_parallax_css" style="background-image: url(/ontashweb/static/wp-content/uploads/2016/04/photo-1423784346385-c1d4dac9893a.jpg);"></span>
+
+                                                <div class="et_pb_container clearfix">
+                                                    <div class="et_pb_slider_container_inner">
+
+                                                        <div class="et_pb_slide_description">
+                                                            <div class="et_pb_text_overlay_wrapper">
+                                                                <h2 class="et_pb_slide_title">Native and cross-platform solutions for healthcare, retail, tourist and E-commerce applications</h2>
+                                                                <div class="et_pb_slide_content"></div>
+                                                            </div>
+
+                                                        </div>
+                                                        <!-- .et_pb_slide_description -->
+                                                    </div>
+                                                </div>
+                                                <!-- .et_pb_container -->
+
+                                            </div>
+                                            <!-- .et_pb_slide -->
+
+                                        </div>
+                                        <!-- .et_pb_slides -->
+
+                                    </div>
+                                    <!-- .et_pb_slider -->
+
+                                </div>
+                                <!-- .et_pb_section -->
+                                <div class="et_pb_section et_pb_section_1 et_section_regular">
+
+                                    <div class="et_pb_row et_pb_row_0">
+                                        <div class="et_pb_column et_pb_column_1_2 et_pb_column_0    et_pb_css_mix_blend_mode_passthrough">
+
+                                            <div class="et_pb_module et_pb_text et_pb_text_0 et_pb_bg_layout_light  et_pb_text_align_left">
+
+                                                <div class="et_pb_text_inner">
+                                                    <h1 style="color: #888bc2;">Mobile Solutions</h1>
+                                                    <p>Early on, Ontash saw how smart phones would revolutionize everyday life, as the result of computers placed in every consumer’s pocket. Beginning in 2009, Ontash began developing apps for Android, and Symbian platforms. In the years since, Ontash has added IOS as well as cross-platform apps to its mobile offerings.</p>
+                                                    <p><strong>Native apps.&#160; </strong>Ontash developed over 40 Android and IOS “visitor experience” and “educational” apps for OIdysseus Mobile Computing LLC . These apps serve as interactive guidebooks through zoos, parks and other attractions. Besides being both educational and instructive, they allow Odysseus to push promotional content through the app, driving traffic to concession stands and other revenue-generating locations. The apps are available nationwide and have been downloaded over 20,000 times.</p>
+                                                </div>
+                                            </div>
+                                            <!-- .et_pb_text -->
+                                            <div class="et_pb_module et_pb_image et_pb_image_0 et_animated et-waypoint et_always_center_on_mobile">
+
+                                                <a href="/ontashweb/static/wp-content/uploads/2016/04/Buffalo_Zoo.jpg" class="et_pb_lightbox_image" title=""><span class="et_pb_image_wrap "><img src="/ontashweb/static/wp-content/uploads/2016/04/Buffalo_Zoo.jpg" alt="" /></span></a>
+                                            </div>
+                                        </div>
+                                        <!-- .et_pb_column -->
+                                        <div class="et_pb_column et_pb_column_1_2 et_pb_column_1    et_pb_css_mix_blend_mode_passthrough">
+
+                                            <div class="et_pb_module et_pb_image et_pb_image_1 et_animated et-waypoint et_always_center_on_mobile">
+
+                                                <span class="et_pb_image_wrap "><img src="/ontashweb/static/wp-content/uploads/2016/04/mob.png" alt="" /></span>
+                                            </div>
+                                        </div>
+                                        <!-- .et_pb_column -->
+
+                                    </div>
+                                    <!-- .et_pb_row -->
+                                    <div class="et_pb_row et_pb_row_1">
+                                        <div class="et_pb_column et_pb_column_4_4 et_pb_column_2    et_pb_css_mix_blend_mode_passthrough et-last-child">
+
+                                            <div class="et_pb_module et_pb_text et_pb_text_1 et_pb_bg_layout_light  et_pb_text_align_left">
+
+                                                <div class="et_pb_text_inner">
+                                                    <p><strong>Cross-Platform apps. </strong>&#160;Ontash has developed a mobile app on Cordova (PhoneGap platform) that interfaces with a Mobility Server for creation of native apps directly from the Mobility Server. The Ontash cross-platform development tool has been used to create both Android and IOS native apps.</p>
+                                                    <p><strong>E-Commerce apps.&#160; </strong>Moo-Cha-Cha was an Ontash app that showed the retail world a better way to push coupons and promotions through to self-qualified audiences. GPS enabled, with an intuitive, user-friendly cover flow interface – Moo-Cha-Cha allowed users to find special offers close by, for the kind of products they wanted. They simply opened the app, selected the kind of product they were looking for, and found the best deals for that product at all the stores in close proximity. Instead of paying for expensive FSIs, or printing and mailing coupons, retailers could simply upload a special offer into the app, and it would be served-up to a customer who happened to be shopping for that exact thing, at that exact time, in that exact neighborhood. Win. Win. Win.
+                                                        <br />
+                                                        <div style="width: 640px;" class="wp-video">
+                                                            <!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+                                                            <video class="wp-video-shortcode" id="video-131-1" width="640" height="360" preload="metadata" controls="controls">
+                                                                <source type="video/mp4" src="/ontashweb/static/wp-content/uploads/2016/04/mooch1230a.m4v?_=1" /><a href="/ontashweb/static/wp-content/uploads/2016/04/mooch1.m4v">https://ontash.net/wp-content/uploads/2016/04/mooch1.m4v</a></video>
+                                                        </div>
+                                                    </p>
+                                                    <p>
+                                                        <strong>Personal Health apps. </strong>Ontash built Hint Health &#160;for a prominent hospital in New York State &#160;to completely revamp a clumsy, ineffective procedure for outpatient prep and follow- up service. Before Hint Health &#160;patients preparing for outpatient GI procedures, used a paper-based checklist to prep for the procedure and for post-procedure instructions. But not all patients paid attention to the checklists, causing costly delays and other complications. The app pushed out messages prompting patients to take certain medications and reduce or stop taking others. A rules-based system kept patients on track and the doctors appraised of their conditions Hint Health &#160;&#160;increased compliance by at least 40%.</p>
+                                                    <p>Ontash has also developed a HIPPA compliant mobile app for hospital medical teams to communicate with each other. When patients are admitted to most hospitals, a team of doctors, nurses, technicians and attendants are assigned to the patient. Procedures are scheduled and team members notified on paper, or perhaps at terminal stations throughout the hospital. Problems arise, when changes in the schedule occur. Ontash’s app, pushes out messaging that notifies all team members of changes in real time and automatically updates each team member’s “Schedule of Activities.”</p>
+                                                </div>
+                                            </div>
+                                            <!-- .et_pb_text -->
+                                        </div>
+                                        <!-- .et_pb_column -->
+
+                                    </div>
+                                    <!-- .et_pb_row -->
+                                    <div class="et_pb_row et_pb_row_2">
+                                        <div class="et_pb_column et_pb_column_1_2 et_pb_column_3    et_pb_css_mix_blend_mode_passthrough">
+
+                                            <div class="et_pb_module et_pb_image et_pb_image_2 et_animated et-waypoint et_always_center_on_mobile">
+
+                                                <a href="/ontashweb/static/wp-content/uploads/2016/04/InnovateNYP_Nurse_Centric_View_Tablet_iPad.jpg" class="et_pb_lightbox_image" title=""><span class="et_pb_image_wrap "><img src="/ontashweb/static/wp-content/uploads/2016/04/InnovateNYP_Nurse_Centric_View_Tablet_iPad.jpg" alt="" /></span></a>
+                                            </div>
+                                        </div>
+                                        <!-- .et_pb_column -->
+                                        <div class="et_pb_column et_pb_column_1_2 et_pb_column_4    et_pb_css_mix_blend_mode_passthrough et_pb_column_empty">
+
+                                        </div>
+                                        <!-- .et_pb_column -->
+
+                                    </div>
+                                    <!-- .et_pb_row -->
+
+                                </div>
+                                <!-- .et_pb_section -->
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- .entry-content -->
+
+                </article>
+                <!-- .et_pb_post -->
+
+            </div>
+            <!-- #main-content -->
+
+
+<footer id="main-footer">
+
+                <div class="container">
+                    <div id="footer-widgets" class="clearfix">
+                        <div class="footer-widget">
+                            <div id="text-5" class="fwidget et_pb_widget widget_text">
+                                <h4 class="title">Ontash</h4>
+                                <div class="textwidget">
+                                    <p>370 W Passaic St,
+                                        <br /> 1st Fl.
+                                        <br /> Rochelle Park
+                                        <br /> NJ 07662
+                                        <br /> United States</p>
+                                </div>
+                            </div>
+                            <!-- end .fwidget -->
+                        </div>
+                        <!-- end .footer-widget -->
+                        <div class="footer-widget">
+                            <div id="text-7" class="fwidget et_pb_widget widget_text">
+                                <div class="textwidget">
+                                    <p>
+                                        <p>
+                                            <p>
+                                                Tel: + 1 2012950152
+                                                <br/>
+                                                Fax: + 1 2012950642
+                                                <br/>
+                                                E-mail:
+                                                <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>
+                                                <a href="mailto:info@ontash.net"><i class="fa fa-envelope-o fa-lg"></i></a>
+                                            </p>
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end .fwidget -->
+                        </div>
+                        <!-- end .footer-widget -->
+                        <div class="footer-widget">
+                            <div id="text-8" class="fwidget et_pb_widget widget_text">
+                                <div class="textwidget"></div>
+                            </div>
+                            <!-- end .fwidget -->
+                        </div>
+                        <!-- end .footer-widget -->
+                        <div class="footer-widget"></div>
+                        <!-- end .footer-widget -->
+                    </div>
+                    <!-- #footer-widgets -->
+                </div>
+                <!-- .container -->
+
+                <div id="footer-bottom">
+                    <div class="container clearfix">
+                        <div id="footer-info">Copyright (C) 2016 Ontash Systems Inc.</div>
+                    </div>
+                    <!-- .container -->
+                </div>
+            </footer>
+            <!-- #main-footer -->
+        </div>
+        <!-- #et-main-area -->
+
+    </div>
+    <!-- #page-container -->
+
+    <script type="text/javascript">
+        var et_animation_data = [{
+            "class": "et_pb_image_0",
+            "style": "slideLeft",
+            "repeat": "once",
+            "duration": "500ms",
+            "delay": "0ms",
+            "intensity": "10%",
+            "starting_opacity": "0%",
+            "speed_curve": "ease-in-out"
+        }, {
+            "class": "et_pb_image_1",
+            "style": "slideLeft",
+            "repeat": "once",
+            "duration": "500ms",
+            "delay": "0ms",
+            "intensity": "10%",
+            "starting_opacity": "0%",
+            "speed_curve": "ease-in-out"
+        }, {
+            "class": "et_pb_image_2",
+            "style": "slideLeft",
+            "repeat": "once",
+            "duration": "500ms",
+            "delay": "0ms",
+            "intensity": "10%",
+            "starting_opacity": "0%",
+            "speed_curve": "ease-in-out"
+        }];
+    </script>
+    <link rel='stylesheet' id='mediaelement-css' href='/ontashweb/static/wp-includes/js/mediaelement/mediaelementplayer-legacy.min45a0.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-mediaelement-css' href='/ontashweb/static/wp-includes/js/mediaelement/wp-mediaelement.min5560.css?ver=5.0.4' type='text/css' media='all' />
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var DIVI = {
+            "item_count": "%d Item",
+            "items_count": "%d Items"
+        };
+        var et_shortcodes_strings = {
+            "previous": "Previous",
+            "next": "Next"
+        };
+        var et_pb_custom = {    
+            "ajaxurl": "\/theme_jun11\/static\/ontash.net\/wp-admin\/admin-ajax.php",
+            "images_uri": "\/theme_jun11\/static\/wp-content\/themes\/Divi\/images",
+            "builder_images_uri": "\/theme_jun11\/static\/wp-content\/themes\/Divi\/includes\/builder\/images",
+            "et_frontend_nonce": "590d396731",
+            "subscription_failed": "Please, check the fields below to make sure you entered the correct information.",
+            "et_ab_log_nonce": "c57b539de3",
+            "fill_message": "Please, fill in the following fields:",
+            "contact_error_message": "Please, fix the following errors:",
+            "invalid": "Invalid email",
+            "captcha": "Captcha",
+            "prev": "Prev",
+            "previous": "Previous",
+            "next": "Next",
+            "wrong_captcha": "You entered the wrong number in captcha.",
+            "ignore_waypoints": "no",
+            "is_divi_theme_used": "1",
+            "widget_search_selector": ".widget_search",
+            "is_ab_testing_active": "",
+            "page_id": "131",
+            "unique_test_id": "",
+            "ab_bounce_rate": "5",
+            "is_cache_plugin_active": "no",
+            "is_shortcode_tracking": "",
+            "tinymce_uri": ""
+        };
+        var et_pb_box_shadow_elements = [".et_pb_fullwidth_slider_0"];
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='/ontashweb/static/wp-content/themes/Divi/js/custom.min67e3.js?ver=3.19.9'></script>
+    <script type='text/javascript' src='/ontashweb/static/wp-content/plugins/divi-builder/core/admin/js/common67e3.js?ver=3.19.9'></script>
+    <script type='text/javascript' src='/ontashweb/static/wp-includes/js/wp-embed.min5560.js?ver=5.0.4'></script>
+    <script type='text/javascript'>
+        var mejsL10n = {
+            "language": "en",
+            "strings": {
+                "mejs.install-flash": "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/",
+                "mejs.fullscreen-off": "Turn off Fullscreen",
+                "mejs.fullscreen-on": "Go Fullscreen",
+                "mejs.download-video": "Download Video",
+                "mejs.fullscreen": "Fullscreen",
+                "mejs.time-jump-forward": ["Jump forward 1 second", "Jump forward %1 seconds"],
+                "mejs.loop": "Toggle Loop",
+                "mejs.play": "Play",
+                "mejs.pause": "Pause",
+                "mejs.close": "Close",
+                "mejs.time-slider": "Time Slider",
+                "mejs.time-help-text": "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.",
+                "mejs.time-skip-back": ["Skip back 1 second", "Skip back %1 seconds"],
+                "mejs.captions-subtitles": "Captions\/Subtitles",
+                "mejs.captions-chapters": "Chapters",
+                "mejs.none": "None",
+                "mejs.mute-toggle": "Mute Toggle",
+                "mejs.volume-help-text": "Use Up\/Down Arrow keys to increase or decrease volume.",
+                "mejs.unmute": "Unmute",
+                "mejs.mute": "Mute",
+                "mejs.volume-slider": "Volume Slider",
+                "mejs.video-player": "Video Player",
+                "mejs.audio-player": "Audio Player",
+                "mejs.ad-skip": "Skip ad",
+                "mejs.ad-skip-info": ["Skip in 1 second", "Skip in %1 seconds"],
+                "mejs.source-chooser": "Source Chooser",
+                "mejs.stop": "Stop",
+                "mejs.speed-rate": "Speed Rate",
+                "mejs.live-broadcast": "Live Broadcast",
+                "mejs.afrikaans": "Afrikaans",
+                "mejs.albanian": "Albanian",
+                "mejs.arabic": "Arabic",
+                "mejs.belarusian": "Belarusian",
+                "mejs.bulgarian": "Bulgarian",
+                "mejs.catalan": "Catalan",
+                "mejs.chinese": "Chinese",
+                "mejs.chinese-simplified": "Chinese (Simplified)",
+                "mejs.chinese-traditional": "Chinese (Traditional)",
+                "mejs.croatian": "Croatian",
+                "mejs.czech": "Czech",
+                "mejs.danish": "Danish",
+                "mejs.dutch": "Dutch",
+                "mejs.english": "English",
+                "mejs.estonian": "Estonian",
+                "mejs.filipino": "Filipino",
+                "mejs.finnish": "Finnish",
+                "mejs.french": "French",
+                "mejs.galician": "Galician",
+                "mejs.german": "German",
+                "mejs.greek": "Greek",
+                "mejs.haitian-creole": "Haitian Creole",
+                "mejs.hebrew": "Hebrew",
+                "mejs.hindi": "Hindi",
+                "mejs.hungarian": "Hungarian",
+                "mejs.icelandic": "Icelandic",
+                "mejs.indonesian": "Indonesian",
+                "mejs.irish": "Irish",
+                "mejs.italian": "Italian",
+                "mejs.japanese": "Japanese",
+                "mejs.korean": "Korean",
+                "mejs.latvian": "Latvian",
+                "mejs.lithuanian": "Lithuanian",
+                "mejs.macedonian": "Macedonian",
+                "mejs.malay": "Malay",
+                "mejs.maltese": "Maltese",
+                "mejs.norwegian": "Norwegian",
+                "mejs.persian": "Persian",
+                "mejs.polish": "Polish",
+                "mejs.portuguese": "Portuguese",
+                "mejs.romanian": "Romanian",
+                "mejs.russian": "Russian",
+                "mejs.serbian": "Serbian",
+                "mejs.slovak": "Slovak",
+                "mejs.slovenian": "Slovenian",
+                "mejs.spanish": "Spanish",
+                "mejs.swahili": "Swahili",
+                "mejs.swedish": "Swedish",
+                "mejs.tagalog": "Tagalog",
+                "mejs.thai": "Thai",
+                "mejs.turkish": "Turkish",
+                "mejs.ukrainian": "Ukrainian",
+                "mejs.vietnamese": "Vietnamese",
+                "mejs.welsh": "Welsh",
+                "mejs.yiddish": "Yiddish"
+            }
+        };
+    </script>
+    <script type='text/javascript' src='/ontashweb/static/wp-includes/js/mediaelement/mediaelement-and-player.min45a0.js?ver=4.2.6-78496d1'></script>
+    <script type='text/javascript' src='/ontashweb/static/wp-includes/js/mediaelement/mediaelement-migrate.min5560.js?ver=5.0.4'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var _wpmejsSettings = {
+            "pluginPath": "\/theme_jun11\/static\/wp-includes\/js\/mediaelement\/",
+            "classPrefix": "mejs-",
+            "stretching": "responsive"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='/ontashweb/static/wp-includes/js/mediaelement/wp-mediaelement.min5560.js?ver=5.0.4'></script>
+    <script type='text/javascript' src='/ontashweb/static/wp-includes/js/mediaelement/renderers/vimeo.min45a0.js?ver=4.2.6-78496d1'></script>
+    <style id="et-builder-module-design-cached-inline-styles">
+        .et_pb_image_0 {
+            margin-left: 0
+        }
+        
+        .et_pb_fullwidth_slider_0.et_pb_slider .et_pb_more_button.et_pb_button {
+            transition: letter-spacing 300ms ease 0ms
+        }
+        
+        .et_pb_image_1 {
+            text-align: right;
+            margin-right: 0
+        }
+        
+        .et_pb_text_1 {
+            padding-bottom: 0px!important;
+            margin-bottom: 0px!important
+        }
+        
+        .et_pb_image_2 {
+            margin-top: 0px!important;
+            margin-left: 0
+        }
+        
+        .et_pb_fullwidth_slider_0>.box-shadow-overlay,
+        .et_pb_fullwidth_slider_0.et-box-shadow-no-overlay {
+            box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.1)
+        }
+        
+        .et_pb_slide_0.et_pb_slider_with_text_overlay .et_pb_text_overlay_wrapper {
+            border-radius: 3px
+        }
+        
+        .et_pb_slide_0 {
+            background-color: #ffffff
+        }
+        
+        .et_pb_slide_0 p {
+            line-height: 1.3em!important
+        }
+        
+        .et_pb_slider.et_pb_module .et_pb_slide_0.et_pb_slide .et_pb_slide_description .et_pb_slide_content {
+            line-height: 1.3em!important
+        }
+        
+        .et_pb_slider .et_pb_slide_0 {
+            background-color: #ffffff
+        }
+        
+        .et_pb_slider .et_pb_slide_0.et_pb_slide .et_pb_slide_description .et_pb_slide_title {
+            line-height: 1.3em!important
+        }
+    </style>
+
+</body>
+    </div>	
+
+
+
+
+
+
+</xpath>
+</template>
+
+</odoo>
+
